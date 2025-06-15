@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: Run EuroJackpot stats script
-        run: python eurojackpot_stats.py
+        run: python eurojackpot_export.py
         
       - name: Commit and push if changed
         run: |
