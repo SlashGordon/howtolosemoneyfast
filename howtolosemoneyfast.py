@@ -39,7 +39,7 @@ def get_cache_filepath(date: str) -> str:
     return os.path.join(CACHE_DIR, f"{date}.json")
 
 
-def get_eurojackpot_results(date: str) -> dict:
+def get_euro_jackpot_results(date: str) -> dict:
     """Fetches Eurojackpot results for a given date, using cache if available."""
     cache_filepath = get_cache_filepath(date)
 
@@ -103,10 +103,30 @@ def load_tickets(filepath: str) -> list:
     return tickets
 
 
+def parse_draw_data(data: dict) -> tuple:
+    """Parses the draw data to extract main and Euro numbers."""
+    if "zahlen" not in data or "auswertung" not in data:
+        raise ValueError(f"No valid data. Skipping.")
+    draws = data["zahlen"]["hauptlotterie"]["ziehungen"]
+
+    drawn_main_numbers = set(map(lambda x: int(x), draws[0].get("zahlen", [])))
+    drawn_euro_numbers = set(map(lambda x: int(x), draws[1].get("zahlen", [])))
+
+    stats = (
+        data.get("auswertung", {})
+        .get("quoten", {})
+        .get("hauptlotterie", {})
+        .get("ziehungen", [{}])[0]
+        .get("gewinnklassen", {})
+    )
+    stats_dict = {item["kurzbeschreibung"]: item["quote"] for item in stats}
+    return drawn_main_numbers, drawn_euro_numbers, stats_dict
+
+
 @click.command()
 @click.option(
     "--lookback-days",
-    default=365,
+    default=3650,
     show_default=True,
     help="How many days to look back.",
 )
@@ -141,28 +161,16 @@ def main(lookback_days, ticket_price, ticket_file, verbose):
     for date in generate_draw_dates(lookback_days=lookback_days):
         logger.debug(f"Fetching results for {date}...")
         try:
-            data = get_eurojackpot_results(date)
+            data = get_euro_jackpot_results(date)
         except requests.HTTPError as e:
             logger.warning(f"Failed to fetch data for {date}: {e}")
             continue
 
-        draws = data.get("zahlen", {}).get("hauptlotterie", {}).get("ziehungen", [])
-        if len(draws) < 2:
-            logger.warning(f"No valid draw data for {date}. Skipping.")
+        try:
+            drawn_main_numbers, drawn_euro_numbers, stats = parse_draw_data(data)
+        except ValueError as e:
+            logger.warning(str(e))
             continue
-
-        drawn_main_numbers = set(map(lambda x: int(x), draws[0].get("zahlen", [])))
-        drawn_euro_numbers = set(map(lambda x: int(x), draws[1].get("zahlen", [])))
-
-        stats = (
-            data.get("auswertung", {})
-            .get("quoten", {})
-            .get("hauptlotterie", {})
-            .get("ziehungen", [{}])[0]
-            .get("gewinnklassen", {})
-        )
-        # stats to dict
-        stats = {info["kurzbeschreibung"]: info["quote"] for info in stats}
         total_spent += ticket_price
         for ticket in my_tickets:
             matched_main, matched_euro = evaluate_ticket(
