@@ -60,6 +60,7 @@ def get_euro_jackpot_results(date: str) -> dict:
     data = response.json()
 
     # Save the results to the cache
+    os.makedirs(CACHE_DIR, exist_ok=True)
     with open(cache_filepath, "w") as f:
         json.dump(data, f)
 
