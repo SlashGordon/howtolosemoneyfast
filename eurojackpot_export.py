@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
         # Convert JSON data back to DrawResult objects
         for item in existing_data:
-            draw_date = date.fromisoformat(item["draw_date"])
+            draw_date = str(date.fromisoformat(item["draw_date"]))
             regular_numbers = set(item["regular_numbers"])
             bonus_numbers = set(item["bonus_numbers"])
             prize_distribution = item["prize_distribution"]
@@ -97,17 +97,20 @@ if __name__ == "__main__":
     new_count = 0
 
     for result in latest_results:
+        # Skip if we already have a result for this date
         if result.draw_date not in existing_dates:
             merged_results.append(result)
+            existing_dates.add(result.draw_date)  # Update set of existing dates
             new_count += 1
 
-    # Sort results by date (convert to string for comparison if needed)
-    merged_results.sort(
-        key=lambda x: str(x.draw_date) if isinstance(x.draw_date, date) else x.draw_date
+    # remove duplicates
+    merged_results_cleaned = list(
+        {result.draw_date: result for result in merged_results}.values()
     )
-
+    # Sort results by date (convert to string for comparison if needed)
+    merged_results_cleaned.sort(key=lambda x: x.draw_date)
     # Convert to serializable format
-    serializable_results = [result.to_dict() for result in merged_results]
+    serializable_results = [result.to_dict() for result in merged_results_cleaned]
 
     # Save to JSON file
     with open("results.json", "w") as f:

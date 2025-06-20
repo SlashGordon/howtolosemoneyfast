@@ -27,9 +27,14 @@ jobs:
         run: python eurojackpot_export.py
         
       - name: Commit and push if changed
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add results.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update EuroJackpot stats"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: Update EuroJackpot stats
+          file_pattern: results.json
+          
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          repository: SlashGordon/howtolosemoneyfast_web
+          event-type: eurojackpot-updated
