@@ -1,3 +1,6 @@
 cache/*
 .venv/*
-__pycache__/howtolosemoneyfast.cpython-313.pyc
+__pycache__/*
+.cache/*
+tests/__pycache__/*
+.vscode/*

@@ -1,9 +1,9 @@
-name: Update EuroJackpot Stats
+name: Update Lotto 6aus49 Stats
 
 on:
   schedule:
-    - cron: '0 23 * * 2'  # Run every Tuesday at 22:00 UTC (after 20-21h draw)
-    - cron: '0 23 * * 5'  # Run every Friday at 22:00 UTC (after 20-21h draw)
+    - cron: '0 23 * * 3'  # Run every Wednesday at 20:00 UTC (after 18:54 draw)
+    - cron: '0 23 * * 6'  # Run every Saturday at 21:00 UTC (after 19:57 draw)
   workflow_dispatch:
 
 jobs:
@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -21,18 +20,17 @@ jobs:
           
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Run EuroJackpot stats script
-        run: python eurojackpot_export.py
+      - name: Run Lotto 6aus49 stats script
+        run: python lotto_6aus49_export.py
         
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: Update EuroJackpot stats
-          file_pattern: eurojackpot_results.json
-          
+          commit_message: Update Lotto 6aus49 stats
+          file_pattern: lotto_6aus49_results.json
+      
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v3
         with:

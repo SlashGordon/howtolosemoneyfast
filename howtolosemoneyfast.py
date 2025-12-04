@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import click
 import json
 import os
+from lottery_base import LotteryExporter
 
 # Setup logger
 logging.basicConfig(
@@ -39,7 +40,7 @@ def get_cache_filepath(date: str) -> str:
     return os.path.join(CACHE_DIR, f"{date}.json")
 
 
-def get_euro_jackpot_results(date: str) -> dict:
+def get_euro_jackpot_results(exporter: LotteryExporter, date: str) -> dict:
     """Fetches Eurojackpot results for a given date, using cache if available."""
     cache_filepath = get_cache_filepath(date)
 
@@ -55,7 +56,7 @@ def get_euro_jackpot_results(date: str) -> dict:
         f"?client=jsn&gruppe=ZahlenUndQuoten&ewGewsum=ja&historie=ja"
         f"&spielart=EJ&adg=ja&lang=de&datum={date}"
     )
-    response = requests.get(url, headers=HEADERS)
+    response = exporter.make_request(url)
     response.raise_for_status()
     data = response.json()
 
@@ -154,15 +155,19 @@ def main(lookback_days, ticket_price, ticket_file, verbose):
         logger.error(str(e))
         return
 
+    exporter = LotteryExporter("eurojackpot_cache.json")
+    draw_dates = list(generate_draw_dates(lookback_days=lookback_days))
+    logger.info(f"Will fire {len(draw_dates)} API queries")
+
     total_spent = 0
     total_won = 0
 
     logger.info("Starting Eurojackpot analysis...")
 
-    for date in generate_draw_dates(lookback_days=lookback_days):
-        logger.debug(f"Fetching results for {date}...")
+    for i, date in enumerate(draw_dates, 1):
+        logger.info(f"Query {i}/{len(draw_dates)}: {date}")
         try:
-            data = get_euro_jackpot_results(date)
+            data = get_euro_jackpot_results(exporter, date)
         except requests.HTTPError as e:
             logger.warning(f"Failed to fetch data for {date}: {e}")
             continue
