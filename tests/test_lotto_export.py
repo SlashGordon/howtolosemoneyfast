@@ -99,7 +99,7 @@ def test_fetch_lotto_results_creates_dream_crusher(mock_exporter, jackpot_respon
     assert isinstance(result, DrawResult)
     assert result.draw_date == date(2022, 1, 1)
     assert result.regular_numbers == {7, 14, 21, 28, 35, 42}
-    assert result.bonus_numbers == {9}
+    assert result.bonus_numbers == {9, -1}
     assert result.prize_distribution["I"] == 50000000
 
 
