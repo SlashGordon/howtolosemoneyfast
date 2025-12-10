@@ -19,8 +19,12 @@ def get_available_years(exporter: LotteryExporter):
 def get_year_timestamps(exporter: LotteryExporter, year: int):
     """Get all draw timestamps for a specific year"""
     dec_31_timestamp = int(datetime(year, 12, 31).timestamp() * 1000)
+    current_year = datetime.now().year
+    skip_cache = year == current_year
+
     response = exporter.make_request(
-        f"https://www.lotto.de/api/stats/entities.lotto/history/{dec_31_timestamp}"
+        f"https://www.lotto.de/api/stats/entities.lotto/history/{dec_31_timestamp}",
+        skip_cache=skip_cache,
     )
     data = response.json()
     if not data or "days" not in data:
@@ -67,15 +71,17 @@ def fetch_lotto_results(exporter: LotteryExporter, timestamp: int):
             )
             if class_name:
                 prizes[class_name] = odds.get("odds", 0)
-        # The super_number is null because we're using set(super_number) which creates a set from a single integer
-        # This should be a set containing just the super number, not converting the integer itself to a set
-        super_number = data.get("superNumber", 0)
-        if super_number is None:
-            super_number = data.get("extraNumber", 0)
+        super_number = (
+            data.get("superNumber") if data.get("superNumber") is not None else -1
+        )
+        extra_number = (
+            data.get("extraNumber") if data.get("extraNumber") is not None else -1
+        )
+
         return DrawResult(
             draw_date=date.fromtimestamp(data["drawDate"] / 1000),
             regular_numbers=set(numbers),
-            bonus_numbers=set([super_number]),
+            bonus_numbers=set([super_number, extra_number]),
             prize_distribution=prizes,
         )
     except Exception as e:
@@ -92,12 +98,33 @@ if __name__ == "__main__":
 
     all_timestamps = list(generate_draw_timestamps(exporter))
 
-    # Filter out existing dates
+    # Filter out existing dates and invalid timestamps
     filtered_timestamps = []
+    filtered_count = 0
     for timestamp in all_timestamps:
-        draw_date = date.fromtimestamp(timestamp / 1000)
-        if draw_date not in existing_dates:
-            filtered_timestamps.append(timestamp)
+        try:
+            draw_date = date.fromtimestamp(timestamp / 1000)
+            # Skip if date is unreasonable (before 1950 or after 2100)
+            if draw_date.year < 1950 or draw_date.year > 2100:
+                logging.debug(f"Filtered out timestamp {timestamp} (date: {draw_date})")
+                filtered_count += 1
+                continue
+            # Skip if not Wednesday (2) or Saturday (5)
+            if draw_date.weekday() not in [2, 5, 6]:
+                logging.debug(
+                    f"Filtered out timestamp {timestamp} (date: {draw_date}, not Wed/Sat)"
+                )
+                filtered_count += 1
+                continue
+            if draw_date not in existing_dates:
+                filtered_timestamps.append(timestamp)
+        except (ValueError, OSError) as e:
+            logging.debug(f"Filtered out invalid timestamp {timestamp}: {e}")
+            filtered_count += 1
+            continue
+
+    if filtered_count > 0:
+        logging.info(f"Filtered out {filtered_count} invalid/out-of-range timestamps")
 
     logging.info(
         f"Total timestamps: {len(all_timestamps)}, New: {len(filtered_timestamps)}"
@@ -106,14 +133,18 @@ if __name__ == "__main__":
 
     results = []
     for i, timestamp in enumerate(filtered_timestamps, 1):
-        logging.info(f"Query {i}/{len(filtered_timestamps)}: {timestamp}")
         result = fetch_lotto_results(exporter, timestamp)
         if result:
+            logging.info(
+                f"Query {i}/{len(filtered_timestamps)}: {timestamp} -> {result.draw_date}"
+            )
             results.append(result)
 
-        if len(results) >= 50:
-            exporter.export_results(results)
-            results = []
+            if len(results) >= 50:
+                exporter.export_results(results)
+                results = []
 
     if results:
         exporter.export_results(results)
+
+    logging.info(f"Successfully processed {len(results)} new draws")

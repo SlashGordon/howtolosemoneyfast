@@ -46,12 +46,12 @@ class LotteryExporter:
             }
         )
 
-    def make_request(self, url: str) -> requests.Response:
+    def make_request(self, url: str, skip_cache: bool = False) -> requests.Response:
         """Make HTTP request with caching and optional human-like wait times"""
         cache_key = hashlib.md5(url.encode()).hexdigest()
         cache_file = os.path.join(self.cache_dir, f"{cache_key}.json")
 
-        if os.path.exists(cache_file):
+        if not skip_cache and os.path.exists(cache_file):
             logging.info(f"Cache hit: {url}")
             with open(cache_file, "r") as f:
                 cached_data = json.load(f)
