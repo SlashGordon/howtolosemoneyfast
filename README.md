@@ -12,13 +12,7 @@ This project fetches real EuroJackpot results, checks them against your saved lo
 
 ## 💸 How It Works
 
-- Loads your "lucky" numbers from a JSON file
-- Checks historical EuroJackpot draws (Tuesdays and Fridays, because of course)
-- Counts matches between your numbers and real draws
-- Calculates **total money lost** (assuming each ticket costs €18.40)
-- Logs the heartbreaking results with a smile :)
 
----
 
 ## 🚀 Quickstart
 
@@ -30,11 +24,59 @@ pip install -r requirements.txt
 python howtolosemoneyfast.py --lookback-days 365 --ticket-file tickets.json --ticket-price 18.40
 ```
 
+### Dividend dataset builder
+
+This repo now includes a simple data builder to aggregate dividend-related data from pre-dumped Yahoo Finance JSON files for static site generation elsewhere.
+
+Inputs expected under `dividends/` per symbol:
+- `{SYMBOL}.json` (ticker info)
+- `{SYMBOL}_calendar.json` (calendar snapshot)
+- `{SYMBOL}_dividends.json` (historical cash dividends)
+
+Run the builder to generate a flat dataset for your site:
+
+```bash
+python build_dividend_data.py
+```
+
+Output: `data/dividends_dataset.json` — a list of per-symbol rows including key fields and derived metrics such as TTM dividends, inferred payout frequency, forward annual dividend, and forward yield.
+
 ---
 
-## 📦 Requirements
+## 🛠 CI/CD (Monthly Dividends Build)
 
-- Python 3.9+
+A GitHub Actions workflow refreshes dividend datasets monthly:
+
+- Schedule: Runs at 03:00 on the 1st day of each month
+- File: `.github/workflows/monthly-dividends.yml`
+- Steps: checkout, set up Python, install requirements, run `build_dividend_data.py` (fallback to `dividends.py`), then upload JSONs from `dividends/` as artifacts
+- Manual Trigger: Use "Run workflow" in GitHub; you may optionally pass an index name
+
+### Local dividend build
+
+Create a virtual environment and install dependencies:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install -r requirements-div.txt
+```
+
+Run all indices via the simple builder:
+
+```bash
+python dividends.py
+```
+
+Or using the dedicated aggregator:
+
+```bash
+python build_dividend_data.py
+```
+
+Outputs are written under `dividends/` (one JSON file per index) and the aggregated dataset under `data/dividends_dataset.json`.
+
 - `requests`
 - `click`
 

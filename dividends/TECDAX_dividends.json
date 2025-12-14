@@ -1,0 +1,1812 @@
+{
+    "DTE.F": {
+        "symbol": "DTE.F",
+        "name": "Deutsche Telekom AG",
+        "indices": [
+            "DAX",
+            "EURO STOXX 50",
+            "TECDAX"
+        ],
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "country": "Germany",
+        "dividend_count": 21,
+        "history": [
+            {
+                "amount": 0.31,
+                "date": "2005-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.36,
+                "date": "2006-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.36,
+                "date": "2007-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.39,
+                "date": "2008-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.39,
+                "date": "2009-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.39,
+                "date": "2010-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2011-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2012-05-25T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2013-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2014-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2015-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2016-05-26T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2017-06-01T00:00:00+02:00"
+            },
+            {
+                "amount": 0.65,
+                "date": "2018-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2019-03-29T00:00:00+01:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2020-06-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2021-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.64,
+                "date": "2022-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2023-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.77,
+                "date": "2024-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.9,
+                "date": "2025-04-10T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-04-10",
+            "earnings_date": [
+                "2025-11-13"
+            ],
+            "earnings_high": 0.45,
+            "earnings_low": 0.42009,
+            "earnings_average": 0.43504,
+            "revenue_high": 31557856000,
+            "revenue_low": 31557856000,
+            "revenue_average": 31557856000
+        }
+    },
+    "IFX.F": {
+        "symbol": "IFX.F",
+        "name": "Infineon Technologies AG",
+        "indices": [
+            "DAX",
+            "EURO STOXX 50",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "country": "Germany",
+        "dividend_count": 15,
+        "history": [
+            {
+                "amount": 0.1,
+                "date": "2011-02-18T00:00:00+01:00"
+            },
+            {
+                "amount": 0.12,
+                "date": "2012-03-09T00:00:00+01:00"
+            },
+            {
+                "amount": 0.12,
+                "date": "2013-03-01T00:00:00+01:00"
+            },
+            {
+                "amount": 0.12,
+                "date": "2014-02-14T00:00:00+01:00"
+            },
+            {
+                "amount": 0.18,
+                "date": "2015-02-13T00:00:00+01:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2016-02-19T00:00:00+01:00"
+            },
+            {
+                "amount": 0.22,
+                "date": "2017-02-17T00:00:00+01:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2018-02-23T00:00:00+01:00"
+            },
+            {
+                "amount": 0.27,
+                "date": "2019-02-22T00:00:00+01:00"
+            },
+            {
+                "amount": 0.27,
+                "date": "2020-02-21T00:00:00+01:00"
+            },
+            {
+                "amount": 0.22,
+                "date": "2021-02-26T00:00:00+01:00"
+            },
+            {
+                "amount": 0.27,
+                "date": "2022-02-18T00:00:00+01:00"
+            },
+            {
+                "amount": 0.32,
+                "date": "2023-02-17T00:00:00+01:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2024-02-26T00:00:00+01:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2025-02-21T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-02-21",
+            "earnings_date": [
+                "2026-02-04"
+            ],
+            "earnings_high": 0.36,
+            "earnings_low": 0.29,
+            "earnings_average": 0.32853,
+            "revenue_high": 3760000000,
+            "revenue_low": 3600300000,
+            "revenue_average": 3655892960
+        }
+    },
+    "SAP.F": {
+        "symbol": "SAP.F",
+        "name": "SAP SE",
+        "indices": [
+            "DAX",
+            "EURO STOXX 50",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "country": "Germany",
+        "dividend_count": 22,
+        "history": [
+            {
+                "amount": 0.2,
+                "date": "2004-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.275,
+                "date": "2005-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3625,
+                "date": "2006-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.46,
+                "date": "2007-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2008-06-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2009-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2010-06-09T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2011-05-26T00:00:00+02:00"
+            },
+            {
+                "amount": 1.100001,
+                "date": "2012-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.85,
+                "date": "2013-06-05T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2014-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 1.1,
+                "date": "2015-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 1.15,
+                "date": "2016-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 1.25,
+                "date": "2017-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 1.4,
+                "date": "2018-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.5,
+                "date": "2019-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 1.58,
+                "date": "2020-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 1.85,
+                "date": "2021-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 2.45,
+                "date": "2022-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 2.05,
+                "date": "2023-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 2.2,
+                "date": "2024-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 2.35,
+                "date": "2025-05-14T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-14",
+            "earnings_date": [
+                "2025-10-22"
+            ],
+            "earnings_high": 1.69,
+            "earnings_low": 1.4154,
+            "earnings_average": 1.52525,
+            "revenue_high": 10317000000,
+            "revenue_low": 9616000000,
+            "revenue_average": 9767753700
+        }
+    },
+    "BC8.F": {
+        "symbol": "BC8.F",
+        "name": "Bechtle AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "country": "Germany",
+        "dividend_count": 22,
+        "history": [
+            {
+                "amount": 0.05,
+                "date": "2004-06-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.066667,
+                "date": "2005-06-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.083333,
+                "date": "2006-06-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.083333,
+                "date": "2007-06-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.1,
+                "date": "2008-06-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.1,
+                "date": "2009-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.1,
+                "date": "2010-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.125,
+                "date": "2011-06-08T00:00:00+02:00"
+            },
+            {
+                "amount": 0.283333,
+                "date": "2012-06-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.166667,
+                "date": "2013-06-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.183333,
+                "date": "2014-06-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2015-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.233333,
+                "date": "2016-06-10T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2017-06-02T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2018-06-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.333333,
+                "date": "2019-05-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2020-05-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.45,
+                "date": "2021-06-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2022-06-03T00:00:00+02:00"
+            },
+            {
+                "amount": 0.65,
+                "date": "2023-05-26T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2024-06-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2025-05-28T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-28",
+            "earnings_date": [
+                "2025-11-14"
+            ],
+            "earnings_high": 0.71947,
+            "earnings_low": 0.70613,
+            "earnings_average": 0.7128,
+            "revenue_high": 1935000000,
+            "revenue_low": 1865176480,
+            "revenue_average": 1906725490
+        }
+    },
+    "EVT.F": {
+        "symbol": "EVT.F",
+        "name": "Evotec SE",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "country": "Germany",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [
+                "2025-11-05"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 265559000,
+            "revenue_low": 226900000,
+            "revenue_average": 239920000
+        }
+    },
+    "FNTN.F": {
+        "symbol": "FNTN.F",
+        "name": "freenet AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "country": "Germany",
+        "dividend_count": 16,
+        "history": [
+            {
+                "amount": 0.2,
+                "date": "2010-07-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2011-07-01T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2012-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 1.35,
+                "date": "2013-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 1.45,
+                "date": "2014-05-14T00:00:00+02:00"
+            },
+            {
+                "amount": 1.5,
+                "date": "2015-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 1.55,
+                "date": "2016-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2017-06-02T00:00:00+02:00"
+            },
+            {
+                "amount": 1.65,
+                "date": "2018-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.65,
+                "date": "2019-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.04,
+                "date": "2020-05-28T00:00:00+02:00"
+            },
+            {
+                "amount": 1.65,
+                "date": "2021-06-21T00:00:00+02:00"
+            },
+            {
+                "amount": 1.57,
+                "date": "2022-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 1.68,
+                "date": "2023-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.77,
+                "date": "2024-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 1.97,
+                "date": "2025-05-14T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-14",
+            "earnings_date": [
+                "2025-11-05"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 635766000,
+            "revenue_low": 635766000,
+            "revenue_average": 635766000
+        }
+    },
+    "MOR.F": {
+        "symbol": "MOR.F",
+        "name": "MorphoSys AG",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "NEM.F": {
+        "symbol": "NEM.F",
+        "name": "Nemetschek SE",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "country": "Germany",
+        "dividend_count": 20,
+        "history": [
+            {
+                "amount": 0.041667,
+                "date": "2005-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.054167,
+                "date": "2006-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.046667,
+                "date": "2007-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.054167,
+                "date": "2008-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.041667,
+                "date": "2010-05-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.083333,
+                "date": "2011-05-25T00:00:00+02:00"
+            },
+            {
+                "amount": 0.095833,
+                "date": "2012-05-25T00:00:00+02:00"
+            },
+            {
+                "amount": 0.095833,
+                "date": "2013-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.108333,
+                "date": "2014-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.133333,
+                "date": "2015-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.166667,
+                "date": "2016-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.216667,
+                "date": "2017-06-02T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2018-05-31T00:00:00+02:00"
+            },
+            {
+                "amount": 0.27,
+                "date": "2019-05-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.28,
+                "date": "2020-06-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2021-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.39,
+                "date": "2022-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.45,
+                "date": "2023-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.48,
+                "date": "2024-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2025-05-21T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-21",
+            "earnings_date": [
+                "2025-11-04"
+            ],
+            "earnings_high": 0.63,
+            "earnings_low": 0.55825,
+            "earnings_average": 0.58617,
+            "revenue_high": 321343340,
+            "revenue_low": 314492570,
+            "revenue_average": 317881790
+        }
+    },
+    "QIA.F": {
+        "symbol": "QIA.F",
+        "name": "QIAGEN N.V.",
+        "indices": [
+            "DAX",
+            "TECDAX"
+        ],
+        "sector": "Healthcare",
+        "industry": "Diagnostics & Research",
+        "country": "Netherlands",
+        "dividend_count": 3,
+        "history": [
+            {
+                "amount": 1.1210601,
+                "date": "2024-01-30T00:00:00+01:00"
+            },
+            {
+                "amount": 1.103544,
+                "date": "2025-01-29T00:00:00+01:00"
+            },
+            {
+                "amount": 0.212875,
+                "date": "2025-07-02T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-07-02",
+            "earnings_date": [
+                "2026-02-04"
+            ],
+            "earnings_high": 0.613,
+            "earnings_low": 0.613,
+            "earnings_average": 0.613,
+            "revenue_high": 532056000,
+            "revenue_low": 527000000,
+            "revenue_average": 528800030
+        }
+    },
+    "SRT3.F": {
+        "symbol": "SRT3.F",
+        "name": "Sartorius AG",
+        "indices": [
+            "DAX",
+            "TECDAX"
+        ],
+        "sector": "Healthcare",
+        "industry": "Medical Instruments & Supplies",
+        "country": "Germany",
+        "dividend_count": 18,
+        "history": [
+            {
+                "amount": 0.17,
+                "date": "2008-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.105,
+                "date": "2009-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.105,
+                "date": "2010-04-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.155,
+                "date": "2011-04-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.205,
+                "date": "2012-04-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.24,
+                "date": "2013-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.255,
+                "date": "2014-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.27,
+                "date": "2015-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 0.38,
+                "date": "2016-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 0.46,
+                "date": "2017-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.51,
+                "date": "2018-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.62,
+                "date": "2019-03-29T00:00:00+01:00"
+            },
+            {
+                "amount": 0.36,
+                "date": "2020-06-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.71,
+                "date": "2021-03-29T00:00:00+02:00"
+            },
+            {
+                "amount": 1.26,
+                "date": "2022-03-28T00:00:00+02:00"
+            },
+            {
+                "amount": 1.44,
+                "date": "2023-03-30T00:00:00+02:00"
+            },
+            {
+                "amount": 0.74,
+                "date": "2024-04-02T00:00:00+02:00"
+            },
+            {
+                "amount": 0.74,
+                "date": "2025-03-28T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-28",
+            "earnings_date": [],
+            "earnings_high": 1.6,
+            "earnings_low": 1.2,
+            "earnings_average": 1.36055,
+            "revenue_high": 996100000,
+            "revenue_low": 918391230,
+            "revenue_average": 935197200
+        }
+    },
+    "SHL.F": {
+        "symbol": "SHL.F",
+        "name": "Siemens Healthineers AG",
+        "indices": [
+            "DAX",
+            "TECDAX"
+        ],
+        "sector": "Healthcare",
+        "industry": "Medical Devices",
+        "country": "Germany",
+        "dividend_count": 7,
+        "history": [
+            {
+                "amount": 0.7,
+                "date": "2019-02-06T00:00:00+01:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2020-02-13T00:00:00+01:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2021-02-15T00:00:00+01:00"
+            },
+            {
+                "amount": 0.85,
+                "date": "2022-02-16T00:00:00+01:00"
+            },
+            {
+                "amount": 0.95,
+                "date": "2023-02-16T00:00:00+01:00"
+            },
+            {
+                "amount": 0.95,
+                "date": "2024-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.95,
+                "date": "2025-02-19T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2026-02-06",
+            "earnings_date": [
+                "2026-02-05"
+            ],
+            "earnings_high": 0.45328,
+            "earnings_low": 0.45,
+            "earnings_average": 0.45164,
+            "revenue_high": 5455547000,
+            "revenue_low": 5447745720,
+            "revenue_average": 5451646360
+        }
+    },
+    "WAF.F": {
+        "symbol": "WAF.F",
+        "name": "Siltronic AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "country": "Germany",
+        "dividend_count": 8,
+        "history": [
+            {
+                "amount": 2.5,
+                "date": "2018-04-20T00:00:00+02:00"
+            },
+            {
+                "amount": 5.0,
+                "date": "2019-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2020-06-29T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2021-04-30T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2022-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2023-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 1.2,
+                "date": "2024-05-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2025-05-13T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-13",
+            "earnings_date": [
+                "2025-10-28"
+            ],
+            "earnings_high": -1.65673,
+            "earnings_low": -1.84926,
+            "earnings_average": -1.753,
+            "revenue_high": 353421540,
+            "revenue_low": 322114050,
+            "revenue_average": 336199650
+        }
+    },
+    "SOW.F": {
+        "symbol": "SOW.F",
+        "name": "Software AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 14,
+        "history": [
+            {
+                "amount": 0.433333,
+                "date": "2011-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.460034,
+                "date": "2012-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.46,
+                "date": "2013-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.46,
+                "date": "2014-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2015-05-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2016-06-01T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2017-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.65,
+                "date": "2018-05-31T00:00:00+02:00"
+            },
+            {
+                "amount": 0.71,
+                "date": "2019-05-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.76,
+                "date": "2020-06-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.76,
+                "date": "2021-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.76,
+                "date": "2022-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2023-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2024-05-27T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "O2D.F": {
+        "symbol": "O2D.F",
+        "name": "Telef\u00f3nica Deutschland Holding AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "UTDI.F": {
+        "symbol": "UTDI.F",
+        "name": "United Internet AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "country": "Germany",
+        "dividend_count": 20,
+        "history": [
+            {
+                "amount": 0.0375,
+                "date": "2004-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2005-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.0625,
+                "date": "2006-06-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.18,
+                "date": "2007-05-31T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2008-05-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2010-06-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2011-05-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2012-06-01T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2013-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2014-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2015-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2016-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2017-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.85,
+                "date": "2018-05-25T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2019-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2020-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2021-05-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2022-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2023-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2024-05-20T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-16",
+            "earnings_date": [
+                "2025-11-11"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 1581000000,
+            "revenue_low": 1581000000,
+            "revenue_average": 1581000000
+        }
+    },
+    "AIXA.F": {
+        "symbol": "AIXA.F",
+        "name": "AIXTRON SE",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "country": "Germany",
+        "dividend_count": 10,
+        "history": [
+            {
+                "amount": 0.07,
+                "date": "2008-05-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.09,
+                "date": "2009-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.15,
+                "date": "2010-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2011-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2012-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.11,
+                "date": "2021-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2022-05-26T00:00:00+02:00"
+            },
+            {
+                "amount": 0.31,
+                "date": "2023-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2024-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.15,
+                "date": "2025-05-16T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-16",
+            "earnings_date": [
+                "2025-10-30"
+            ],
+            "earnings_high": 0.34798,
+            "earnings_low": 0.30724,
+            "earnings_average": 0.32426,
+            "revenue_high": 168724240,
+            "revenue_low": 164438930,
+            "revenue_average": 166814260
+        }
+    },
+    "COK.F": {
+        "symbol": "COK.F",
+        "name": "Cancom SE",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "country": "Germany",
+        "dividend_count": 16,
+        "history": [
+            {
+                "amount": 0.072374,
+                "date": "2010-06-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.072374,
+                "date": "2011-06-09T00:00:00+02:00"
+            },
+            {
+                "amount": 0.144749,
+                "date": "2012-06-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.168873,
+                "date": "2013-06-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2014-06-26T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2015-06-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2016-06-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2017-06-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2018-06-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2019-06-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2020-07-01T00:00:00+02:00"
+            },
+            {
+                "amount": 0.75,
+                "date": "2021-06-30T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2022-06-29T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2023-06-15T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2024-06-06T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2025-06-25T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-06-25",
+            "earnings_date": [
+                "2025-11-13"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "AFX.F": {
+        "symbol": "AFX.F",
+        "name": "Carl Zeiss Meditec AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Healthcare",
+        "industry": "Medical Instruments & Supplies",
+        "country": "Germany",
+        "dividend_count": 20,
+        "history": [
+            {
+                "amount": 0.16,
+                "date": "2006-03-13T00:00:00+01:00"
+            },
+            {
+                "amount": 0.14,
+                "date": "2007-03-12T00:00:00+01:00"
+            },
+            {
+                "amount": 0.16,
+                "date": "2008-03-10T00:00:00+01:00"
+            },
+            {
+                "amount": 0.18,
+                "date": "2009-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.18,
+                "date": "2010-03-05T00:00:00+01:00"
+            },
+            {
+                "amount": 0.462962,
+                "date": "2011-04-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2012-03-12T00:00:00+01:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2013-03-06T00:00:00+01:00"
+            },
+            {
+                "amount": 0.45,
+                "date": "2014-03-05T00:00:00+01:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2015-03-19T00:00:00+01:00"
+            },
+            {
+                "amount": 0.38,
+                "date": "2016-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.42,
+                "date": "2017-05-31T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2018-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2019-03-20T00:00:00+01:00"
+            },
+            {
+                "amount": 0.65,
+                "date": "2020-08-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2021-05-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.9,
+                "date": "2022-03-31T00:00:00+02:00"
+            },
+            {
+                "amount": 1.1,
+                "date": "2023-03-23T00:00:00+01:00"
+            },
+            {
+                "amount": 1.1,
+                "date": "2024-03-22T00:00:00+01:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2025-03-27T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-27",
+            "earnings_date": [
+                "2026-02-12"
+            ],
+            "earnings_high": 0.34,
+            "earnings_low": 0.34,
+            "earnings_average": 0.34,
+            "revenue_high": 529700000,
+            "revenue_low": 529700000,
+            "revenue_average": 529700000
+        }
+    },
+    "COP.F": {
+        "symbol": "COP.F",
+        "name": "CompuGroup Medical SE",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "JEN.F": {
+        "symbol": "JEN.F",
+        "name": "JENOPTIK AG",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Electronic Components",
+        "country": "Germany",
+        "dividend_count": 11,
+        "history": [
+            {
+                "amount": 0.15,
+                "date": "2012-06-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.18,
+                "date": "2013-06-05T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2014-06-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2018-06-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2019-06-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.13,
+                "date": "2020-08-10T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2021-06-10T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2022-06-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2023-06-08T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2024-06-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.38,
+                "date": "2025-06-13T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-06-13",
+            "earnings_date": [
+                "2025-11-12"
+            ],
+            "earnings_high": 0.27054,
+            "earnings_low": 0.27054,
+            "earnings_average": 0.27054,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "NDX1.F": {
+        "symbol": "NDX1.F",
+        "name": "Nordex SE",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "Industrials",
+        "industry": "Specialty Industrial Machinery",
+        "country": "Germany",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [
+                "2025-11-04"
+            ],
+            "earnings_high": 0.73,
+            "earnings_low": 0.47424,
+            "earnings_average": 0.60212,
+            "revenue_high": 2764855000,
+            "revenue_low": 2130500990,
+            "revenue_average": 2447678000
+        }
+    },
+    "TMV.F": {
+        "symbol": "TMV.F",
+        "name": "TeamViewer AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "country": "Germany",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [
+                "2025-11-04"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 192800000,
+            "revenue_low": 192373530,
+            "revenue_average": 192586760
+        }
+    },
+    "VAR1.F": {
+        "symbol": "VAR1.F",
+        "name": "VARTA AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "HAG.F": {
+        "symbol": "HAG.F",
+        "name": "Hensoldt AG",
+        "indices": [
+            "TECDAX"
+        ],
+        "sector": "Industrials",
+        "industry": "Aerospace & Defense",
+        "country": "Germany",
+        "dividend_count": 5,
+        "history": [
+            {
+                "amount": 0.13,
+                "date": "2021-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2022-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2023-05-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2024-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2025-05-28T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-28",
+            "earnings_date": [
+                "2025-11-07"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "VBVBF": {
+        "symbol": "VBVBF",
+        "name": "VERBIO Vereinigte BioEnergie AG",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "Basic Materials",
+        "industry": "Specialty Chemicals",
+        "country": "Germany",
+        "dividend_count": 6,
+        "history": [
+            {
+                "amount": 0.23487964,
+                "date": "2020-02-03T00:00:00-05:00"
+            },
+            {
+                "amount": 0.23487964,
+                "date": "2021-02-01T00:00:00-05:00"
+            },
+            {
+                "amount": 0.23487964,
+                "date": "2022-02-07T00:00:00-05:00"
+            },
+            {
+                "amount": 0.23487964,
+                "date": "2023-02-06T00:00:00-05:00"
+            },
+            {
+                "amount": 0.23487964,
+                "date": "2024-02-05T00:00:00-05:00"
+            },
+            {
+                "amount": 0.23487964,
+                "date": "2024-12-09T00:00:00-05:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2024-12-09",
+            "earnings_date": [
+                "2026-02-12"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "NA9.F": {
+        "symbol": "NA9.F",
+        "name": "Nagarro SE",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "country": "Germany",
+        "dividend_count": 1,
+        "history": [
+            {
+                "amount": 1.0,
+                "date": "2025-07-01T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-07-01",
+            "earnings_date": [
+                "2025-11-14"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "VTWR.F": {
+        "symbol": "VTWR.F",
+        "name": "Vantage Towers AG",
+        "indices": [
+            "MDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "SUSE.F": {
+        "symbol": "SUSE.F",
+        "name": "SUSE S.A.",
+        "indices": [
+            "SDAX",
+            "TECDAX"
+        ],
+        "sector": "",
+        "industry": "",
+        "country": "",
+        "dividend_count": 0,
+        "history": [],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": null,
+            "earnings_date": [],
+            "earnings_high": 0.0,
+            "earnings_low": 0.0,
+            "earnings_average": 0.0,
+            "revenue_high": 0.0,
+            "revenue_low": 0.0,
+            "revenue_average": 0.0
+        }
+    },
+    "1U1.F": {
+        "symbol": "1U1.F",
+        "name": "1&1 Aktiengesellschaft",
+        "indices": [
+            "TECDAX"
+        ],
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "country": "Germany",
+        "dividend_count": 15,
+        "history": [
+            {
+                "amount": 0.5,
+                "date": "2011-05-30T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2012-05-25T00:00:00+02:00"
+            },
+            {
+                "amount": 1.3,
+                "date": "2013-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2014-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 1.7,
+                "date": "2015-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 1.75,
+                "date": "2016-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 1.8,
+                "date": "2017-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2018-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2019-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2020-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2021-05-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2022-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2023-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2024-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.05,
+                "date": "2025-05-15T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-15",
+            "earnings_date": [
+                "2025-11-11"
+            ],
+            "earnings_high": 0.31971,
+            "earnings_low": 0.31971,
+            "earnings_average": 0.31971,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    }
+}
