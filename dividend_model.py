@@ -60,6 +60,9 @@ class DividendModel:
     country: str
     current_price: float | None
     currency: str | None
+    dividend_yield_percent: float | None
+    dividend_yield_forward: float | None
+    dividend_rate: float | None
     dividend_count: int
     history: list[DividenItem]
     expected_ex_dividend_dates: DividendEx
@@ -74,6 +77,23 @@ class DividendModel:
         if price is None:
             price = info.get("currentPrice")
         currency = info.get("currency")
+        # Dividend yield from yfinance may be fractional (e.g., 0.0133) or missing
+        yield_val = info.get("trailingAnnualDividendYield")
+        if yield_val is None:
+            yield_val = info.get("dividendYield")
+        if isinstance(yield_val, (int, float)):
+            # Convert fractional yield to percent; if already >1 assume percent
+            dividend_yield_percent = (
+                float(yield_val) * 100.0
+                if float(yield_val) <= 1.0
+                else float(yield_val)
+            )
+        else:
+            dividend_yield_percent = None
+
+        # Raw forward-looking values
+        dividend_yield_forward = info.get("dividendYield")
+        dividend_rate = info.get("dividendRate")
 
         return cls(
             symbol=info.get("symbol", ""),
@@ -84,6 +104,9 @@ class DividendModel:
             country=info.get("country", ""),
             current_price=price,
             currency=currency,
+            dividend_yield_percent=dividend_yield_percent,
+            dividend_yield_forward=dividend_yield_forward,
+            dividend_rate=dividend_rate,
             dividend_count=len(history),
             history=history,
             expected_ex_dividend_dates=expected_dates,
@@ -99,6 +122,9 @@ class DividendModel:
             "country": self.country,
             "current_price": self.current_price,
             "currency": self.currency,
+            "dividend_yield_percent": self.dividend_yield_percent,
+            "dividend_yield_forward": self.dividend_yield_forward,
+            "dividend_rate": self.dividend_rate,
             "dividend_count": self.dividend_count,
             "history": [
                 {"amount": item.amount, "date": item.date.isoformat()}
