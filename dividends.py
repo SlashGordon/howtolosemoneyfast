@@ -11,6 +11,7 @@ the `dividends/` folder.
 import json
 import logging
 from pathlib import Path
+import re
 
 import pytickersymbols as pts
 import yfinance as yf
@@ -31,14 +32,19 @@ INDICES: list[str] = [
     pts.Statics.Indices.EU_50,
 ]
 
-# Friendly names -> pytickersymbols values
-INDEX_NAME_MAP: dict[str, str] = {
-    "DE_DAX": pts.Statics.Indices.DE_DAX,
-    "DE_TECDAX": pts.Statics.Indices.DE_TECDAX,
-    "US_DOW": pts.Statics.Indices.US_DOW,
-    "US_NASDAQ": pts.Statics.Indices.US_NASDAQ,
-    "EU_50": pts.Statics.Indices.EU_50,
-}
+
+def _available_indices() -> set[str]:
+    """Return all index names defined by `pytickersymbols`.
+
+    This inspects `pts.Statics.Indices` and collects public string attributes,
+    which are the canonical index names to be used with the CLI.
+    """
+    return {
+        value
+        for name, value in vars(pts.Statics.Indices).items()
+        if not name.startswith("_") and isinstance(value, str)
+    }
+
 
 # Indices where the primary symbol is used directly (US-specific)
 US_INDICES: set[str] = {
@@ -59,10 +65,12 @@ def resolve_symbol(symbol: dict, index: str) -> str | None:
 
     Returns `None` if no symbol could be determined.
     """
-
+    sym_str = symbol.get("symbol")
     if index in US_INDICES:
-        return symbol.get("symbol")
-
+        return sym_str
+    # Simple regex: alphanumerics and '-' before '.', letters after '.'
+    if re.match(r"^[A-Za-z0-9-]+\.[A-Za-z]+$", sym_str):
+        return sym_str
     syms = symbol.get("symbols") or []
     first = syms[0] if syms else None
     yahoo = first.get("yahoo") if isinstance(first, dict) else None
@@ -106,14 +114,15 @@ def build_index_dividends(
 def _resolve_indices_from_option(index_opt: str | None) -> list[str]:
     if index_opt:
         names = [n.strip() for n in index_opt.split(",") if n.strip()]
-        unknown = [n for n in names if n not in INDEX_NAME_MAP]
+        available = _available_indices()
+        unknown = [n for n in names if n not in available]
         if unknown:
             raise click.BadParameter(
                 f"Unknown index names: {', '.join(unknown)}",
                 param=index_opt,
                 param_hint="--index",
             )
-        return [INDEX_NAME_MAP[n] for n in names]
+        return names
     return INDICES
 
 
@@ -123,11 +132,18 @@ def _resolve_indices_from_option(index_opt: str | None) -> list[str]:
     "--index",
     "-i",
     help=(
-        "Optional index name to process (DE_DAX, DE_TECDAX, US_DOW, US_NASDAQ, EU_50). "
+        "Optional index name(s) as defined by pytickersymbols (e.g., DE_DAX, DE_TECDAX, US_DOW, US_NASDAQ, EU_50). "
         "Pass multiple as comma-separated values."
     ),
 )
-def main(index: str | None) -> None:
+@click.option(
+    "overwrite",
+    "--overwrite",
+    "-o",
+    is_flag=True,
+    help="Overwrite existing dividends JSON files if present",
+)
+def main(index: str | None, overwrite: bool) -> None:
     """Entry point for building dividend datasets for configured indices."""
 
     logging.basicConfig(
@@ -144,9 +160,12 @@ def main(index: str | None) -> None:
     for index in selected_indices:
         logger.info("Processing index: %s", index)
         out_file = out_path / f"{index}_dividends.json"
-        if out_file.exists():
+        if out_file.exists() and not overwrite:
             logger.info("Output exists, skipping index: %s", out_file)
             continue
+
+        if out_file.exists() and overwrite:
+            logger.info("Overwriting existing output: %s", out_file)
 
         count = build_index_dividends(index, pts_client, out_file)
         logger.info("Wrote %d symbols to %s", count, out_file)

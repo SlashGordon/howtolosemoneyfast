@@ -58,6 +58,8 @@ class DividendModel:
     sector: str
     industry: str
     country: str
+    current_price: float | None
+    currency: str | None
     dividend_count: int
     history: list[DividenItem]
     expected_ex_dividend_dates: DividendEx
@@ -68,6 +70,10 @@ class DividendModel:
     ) -> DividendModel:
         history = [DividenItem(amount=amt, date=dt) for dt, amt in dividends.items()]
         expected_dates = DividendEx.from_dict(calendar)
+        price = info.get("regularMarketPrice")
+        if price is None:
+            price = info.get("currentPrice")
+        currency = info.get("currency")
 
         return cls(
             symbol=info.get("symbol", ""),
@@ -76,6 +82,8 @@ class DividendModel:
             sector=info.get("sector", ""),
             industry=info.get("industry", ""),
             country=info.get("country", ""),
+            current_price=price,
+            currency=currency,
             dividend_count=len(history),
             history=history,
             expected_ex_dividend_dates=expected_dates,
@@ -89,6 +97,8 @@ class DividendModel:
             "sector": self.sector,
             "industry": self.industry,
             "country": self.country,
+            "current_price": self.current_price,
+            "currency": self.currency,
             "dividend_count": self.dividend_count,
             "history": [
                 {"amount": item.amount, "date": item.date.isoformat()}

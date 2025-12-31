@@ -1,0 +1,2294 @@
+{
+    "NESN.SW": {
+        "symbol": "NESN.SW",
+        "name": "Nestl\u00e9 SA",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Consumer Defensive",
+        "industry": "Packaged Foods",
+        "country": "Switzerland",
+        "current_price": 78.74,
+        "currency": "CHF",
+        "dividend_count": 24,
+        "history": [
+            {
+                "amount": 0.64,
+                "date": "2002-04-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2003-04-09T00:00:00+02:00"
+            },
+            {
+                "amount": 0.72,
+                "date": "2004-04-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2005-04-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.9,
+                "date": "2006-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 1.04,
+                "date": "2007-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 1.22,
+                "date": "2008-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 1.4,
+                "date": "2009-04-29T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2010-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.85,
+                "date": "2011-04-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.95,
+                "date": "2012-04-23T00:00:00+02:00"
+            },
+            {
+                "amount": 2.05,
+                "date": "2013-04-15T00:00:00+02:00"
+            },
+            {
+                "amount": 2.15,
+                "date": "2014-04-14T00:00:00+02:00"
+            },
+            {
+                "amount": 2.2,
+                "date": "2015-04-20T00:00:00+02:00"
+            },
+            {
+                "amount": 2.25,
+                "date": "2016-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 2.3,
+                "date": "2017-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 2.35,
+                "date": "2018-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 2.45,
+                "date": "2019-04-15T00:00:00+02:00"
+            },
+            {
+                "amount": 2.7,
+                "date": "2020-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2021-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 2.8,
+                "date": "2022-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 2.95,
+                "date": "2023-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2024-04-22T00:00:00+02:00"
+            },
+            {
+                "amount": 3.05,
+                "date": "2025-04-22T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-04-22",
+            "earnings_date": [],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 23328000000,
+            "revenue_low": 23328000000,
+            "revenue_average": 23328000000
+        }
+    },
+    "ROG.SW": {
+        "symbol": "ROG.SW",
+        "name": "Roche Holding AG",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "country": "Switzerland",
+        "current_price": 328.2,
+        "currency": "CHF",
+        "dividend_count": 31,
+        "history": [
+            {
+                "amount": 0.55,
+                "date": "1995-06-02T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "1996-06-05T00:00:00+02:00"
+            },
+            {
+                "amount": 0.75,
+                "date": "1997-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 0.83,
+                "date": "1998-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 0.87,
+                "date": "1999-04-23T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2000-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 1.15,
+                "date": "2001-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 1.3,
+                "date": "2002-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.45,
+                "date": "2003-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 1.65,
+                "date": "2004-04-13T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2005-03-03T00:00:00+01:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2006-03-02T00:00:00+01:00"
+            },
+            {
+                "amount": 3.4,
+                "date": "2007-03-08T00:00:00+01:00"
+            },
+            {
+                "amount": 4.6,
+                "date": "2008-03-07T00:00:00+01:00"
+            },
+            {
+                "amount": 5.0,
+                "date": "2009-03-16T00:00:00+01:00"
+            },
+            {
+                "amount": 6.0,
+                "date": "2010-03-04T00:00:00+01:00"
+            },
+            {
+                "amount": 6.6,
+                "date": "2011-03-03T00:00:00+01:00"
+            },
+            {
+                "amount": 6.8,
+                "date": "2012-03-08T00:00:00+01:00"
+            },
+            {
+                "amount": 7.35,
+                "date": "2013-03-07T00:00:00+01:00"
+            },
+            {
+                "amount": 7.8,
+                "date": "2014-03-06T00:00:00+01:00"
+            },
+            {
+                "amount": 8.0,
+                "date": "2015-03-05T00:00:00+01:00"
+            },
+            {
+                "amount": 8.1,
+                "date": "2016-03-03T00:00:00+01:00"
+            },
+            {
+                "amount": 8.2,
+                "date": "2017-03-16T00:00:00+01:00"
+            },
+            {
+                "amount": 8.3,
+                "date": "2018-03-15T00:00:00+01:00"
+            },
+            {
+                "amount": 8.7,
+                "date": "2019-03-07T00:00:00+01:00"
+            },
+            {
+                "amount": 9.0,
+                "date": "2020-03-19T00:00:00+01:00"
+            },
+            {
+                "amount": 9.1,
+                "date": "2021-03-18T00:00:00+01:00"
+            },
+            {
+                "amount": 9.3,
+                "date": "2022-03-17T00:00:00+01:00"
+            },
+            {
+                "amount": 9.5,
+                "date": "2023-03-16T00:00:00+01:00"
+            },
+            {
+                "amount": 9.6,
+                "date": "2024-03-14T00:00:00+01:00"
+            },
+            {
+                "amount": 9.7,
+                "date": "2025-03-27T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-27",
+            "earnings_date": [],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 15560000000,
+            "revenue_low": 14958000000,
+            "revenue_average": 15259000000
+        }
+    },
+    "NOVN.SW": {
+        "symbol": "NOVN.SW",
+        "name": "Novartis",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "country": "Switzerland",
+        "current_price": 109.6,
+        "currency": "CHF",
+        "dividend_count": 29,
+        "history": [
+            {
+                "amount": 0.5,
+                "date": "1997-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 0.625,
+                "date": "1998-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 0.725,
+                "date": "1999-04-26T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2000-04-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.85,
+                "date": "2001-03-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.9,
+                "date": "2002-03-26T00:00:00+01:00"
+            },
+            {
+                "amount": 0.95,
+                "date": "2003-03-07T00:00:00+01:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2004-02-27T00:00:00+01:00"
+            },
+            {
+                "amount": 1.05,
+                "date": "2005-03-04T00:00:00+01:00"
+            },
+            {
+                "amount": 1.15,
+                "date": "2006-03-03T00:00:00+01:00"
+            },
+            {
+                "amount": 1.35,
+                "date": "2007-03-09T00:00:00+01:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2008-02-29T00:00:00+01:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2009-02-27T00:00:00+01:00"
+            },
+            {
+                "amount": 2.1,
+                "date": "2010-03-02T00:00:00+01:00"
+            },
+            {
+                "amount": 2.2,
+                "date": "2011-02-24T00:00:00+01:00"
+            },
+            {
+                "amount": 2.25,
+                "date": "2012-02-27T00:00:00+01:00"
+            },
+            {
+                "amount": 2.3,
+                "date": "2013-02-26T00:00:00+01:00"
+            },
+            {
+                "amount": 2.45,
+                "date": "2014-02-27T00:00:00+01:00"
+            },
+            {
+                "amount": 2.6,
+                "date": "2015-03-03T00:00:00+01:00"
+            },
+            {
+                "amount": 2.7,
+                "date": "2016-02-25T00:00:00+01:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2017-03-02T00:00:00+01:00"
+            },
+            {
+                "amount": 2.8,
+                "date": "2018-03-06T00:00:00+01:00"
+            },
+            {
+                "amount": 2.85,
+                "date": "2019-03-04T00:00:00+01:00"
+            },
+            {
+                "amount": 2.95,
+                "date": "2020-03-03T00:00:00+01:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2021-03-04T00:00:00+01:00"
+            },
+            {
+                "amount": 3.1,
+                "date": "2022-03-08T00:00:00+01:00"
+            },
+            {
+                "amount": 3.2,
+                "date": "2023-03-09T00:00:00+01:00"
+            },
+            {
+                "amount": 3.3,
+                "date": "2024-03-07T00:00:00+01:00"
+            },
+            {
+                "amount": 3.5,
+                "date": "2025-03-11T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-11",
+            "earnings_date": [
+                "2025-10-28"
+            ],
+            "earnings_high": 1.98496,
+            "earnings_low": 1.91196,
+            "earnings_average": 1.95538,
+            "revenue_high": 14461604470,
+            "revenue_low": 13596821000,
+            "revenue_average": 13810099070
+        }
+    },
+    "CFR.SW": {
+        "symbol": "CFR.SW",
+        "name": "Richemont",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Consumer Cyclical",
+        "industry": "Luxury Goods",
+        "country": "Switzerland",
+        "current_price": 172.05,
+        "currency": "CHF",
+        "dividend_count": 20,
+        "history": [
+            {
+                "amount": 0.5871376,
+                "date": "2007-09-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6698448,
+                "date": "2008-09-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.3,
+                "date": "2009-09-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.195,
+                "date": "2009-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35,
+                "date": "2010-09-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.45,
+                "date": "2011-09-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2012-09-10T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2013-09-16T00:00:00+02:00"
+            },
+            {
+                "amount": 1.4,
+                "date": "2014-09-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2015-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.7,
+                "date": "2016-09-21T00:00:00+02:00"
+            },
+            {
+                "amount": 1.8,
+                "date": "2017-09-20T00:00:00+02:00"
+            },
+            {
+                "amount": 1.9,
+                "date": "2018-09-19T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2019-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2020-09-16T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2021-09-21T00:00:00+02:00"
+            },
+            {
+                "amount": 3.25,
+                "date": "2022-09-21T00:00:00+02:00"
+            },
+            {
+                "amount": 3.5,
+                "date": "2023-09-20T00:00:00+02:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2024-09-19T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2025-09-17T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-09-17",
+            "earnings_date": [
+                "2025-11-14"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 6305000000,
+            "revenue_low": 6019400000,
+            "revenue_average": 6184350000
+        }
+    },
+    "ZURN.SW": {
+        "symbol": "ZURN.SW",
+        "name": "Zurich Insurance Group",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Financial Services",
+        "industry": "Insurance - Diversified",
+        "country": "Switzerland",
+        "current_price": 601.8,
+        "currency": "CHF",
+        "dividend_count": 24,
+        "history": [
+            {
+                "amount": 13.5,
+                "date": "1999-06-16T00:00:00+02:00"
+            },
+            {
+                "amount": 17.15,
+                "date": "2000-05-31T00:00:00+02:00"
+            },
+            {
+                "amount": 17.15,
+                "date": "2001-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 8.0,
+                "date": "2002-05-22T00:00:00+02:00"
+            },
+            {
+                "amount": 4.6,
+                "date": "2006-07-04T00:00:00+02:00"
+            },
+            {
+                "amount": 11.0,
+                "date": "2007-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 15.0,
+                "date": "2008-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 11.0,
+                "date": "2009-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 16.0,
+                "date": "2010-04-01T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2011-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2012-04-02T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2013-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2014-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2015-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2016-04-01T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2017-03-31T00:00:00+02:00"
+            },
+            {
+                "amount": 18.0,
+                "date": "2018-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 19.0,
+                "date": "2019-04-05T00:00:00+02:00"
+            },
+            {
+                "amount": 20.0,
+                "date": "2020-04-03T00:00:00+02:00"
+            },
+            {
+                "amount": 20.0,
+                "date": "2021-04-09T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2022-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 24.0,
+                "date": "2023-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 26.0,
+                "date": "2024-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 28.0,
+                "date": "2025-04-11T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-04-11",
+            "earnings_date": [
+                "2025-11-06"
+            ],
+            "earnings_high": 9.56213,
+            "earnings_low": 9.56213,
+            "earnings_average": 9.56213,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "UBSG.SW": {
+        "symbol": "UBSG.SW",
+        "name": "UBS",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "country": "Switzerland",
+        "current_price": 36.96,
+        "currency": "CHF",
+        "dividend_count": 16,
+        "history": [
+            {
+                "amount": 2.2,
+                "date": "2007-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.1,
+                "date": "2012-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2013-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2014-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2015-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.25,
+                "date": "2015-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.85,
+                "date": "2016-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.65,
+                "date": "2018-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2019-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.35208,
+                "date": "2020-05-05T00:00:00+02:00"
+            },
+            {
+                "amount": 0.28923696,
+                "date": "2020-11-24T00:00:00+01:00"
+            },
+            {
+                "amount": 0.2931991,
+                "date": "2021-04-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.396215,
+                "date": "2022-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.4358365,
+                "date": "2023-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.554701,
+                "date": "2024-04-30T00:00:00+02:00"
+            },
+            {
+                "amount": 0.713187,
+                "date": "2025-04-15T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-04-15",
+            "earnings_date": [
+                "2025-10-29"
+            ],
+            "earnings_high": 0.507,
+            "earnings_low": 0.35,
+            "earnings_average": 0.41775,
+            "revenue_high": 10093639000,
+            "revenue_low": 9657564000,
+            "revenue_average": 9875601500
+        }
+    },
+    "ABBN.SW": {
+        "symbol": "ABBN.SW",
+        "name": "ABB",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "country": "Switzerland",
+        "current_price": 59.22,
+        "currency": "CHF",
+        "dividend_count": 22,
+        "history": [
+            {
+                "amount": 2.380046,
+                "date": "2000-03-23T00:00:00+01:00"
+            },
+            {
+                "amount": 2.380046,
+                "date": "2001-03-26T00:00:00+02:00"
+            },
+            {
+                "amount": 0.12,
+                "date": "2006-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 0.24,
+                "date": "2007-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 0.48,
+                "date": "2008-07-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.48,
+                "date": "2009-07-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.51,
+                "date": "2010-07-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2011-05-03T00:00:00+02:00"
+            },
+            {
+                "amount": 0.65,
+                "date": "2012-04-30T00:00:00+02:00"
+            },
+            {
+                "amount": 0.68,
+                "date": "2013-04-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2014-05-05T00:00:00+02:00"
+            },
+            {
+                "amount": 0.55,
+                "date": "2015-05-05T00:00:00+02:00"
+            },
+            {
+                "amount": 0.74,
+                "date": "2016-07-11T00:00:00+02:00"
+            },
+            {
+                "amount": 0.76,
+                "date": "2017-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.78,
+                "date": "2018-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2019-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2020-03-30T00:00:00+02:00"
+            },
+            {
+                "amount": 0.8,
+                "date": "2021-03-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.82,
+                "date": "2022-03-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.84,
+                "date": "2023-03-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.87,
+                "date": "2024-03-25T00:00:00+01:00"
+            },
+            {
+                "amount": 0.9,
+                "date": "2025-03-31T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-31",
+            "earnings_date": [
+                "2025-10-16"
+            ],
+            "earnings_high": 0.73788,
+            "earnings_low": 0.67,
+            "earnings_average": 0.7126,
+            "revenue_high": 9678000000,
+            "revenue_low": 8693000000,
+            "revenue_average": 9030243260
+        }
+    },
+    "LONN.SW": {
+        "symbol": "LONN.SW",
+        "name": "Lonza Group",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Healthcare",
+        "industry": "Diagnostics & Research",
+        "country": "Switzerland",
+        "current_price": 537.8,
+        "currency": "CHF",
+        "dividend_count": 25,
+        "history": [
+            {
+                "amount": 9.262896,
+                "date": "2000-06-16T00:00:00+02:00"
+            },
+            {
+                "amount": 13.894344,
+                "date": "2001-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 17.599503,
+                "date": "2002-04-03T00:00:00+02:00"
+            },
+            {
+                "amount": 1.75995,
+                "date": "2003-04-01T00:00:00+02:00"
+            },
+            {
+                "amount": 1.204176,
+                "date": "2004-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 1.204176,
+                "date": "2005-04-15T00:00:00+02:00"
+            },
+            {
+                "amount": 1.204176,
+                "date": "2006-03-28T00:00:00+02:00"
+            },
+            {
+                "amount": 1.389434,
+                "date": "2007-04-03T00:00:00+02:00"
+            },
+            {
+                "amount": 1.621007,
+                "date": "2008-04-01T00:00:00+02:00"
+            },
+            {
+                "amount": 1.621007,
+                "date": "2009-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 1.621007,
+                "date": "2010-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 1.991523,
+                "date": "2011-04-14T00:00:00+02:00"
+            },
+            {
+                "amount": 1.991523,
+                "date": "2012-04-05T00:00:00+02:00"
+            },
+            {
+                "amount": 1.991523,
+                "date": "2013-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 1.991523,
+                "date": "2014-04-22T00:00:00+02:00"
+            },
+            {
+                "amount": 2.315724,
+                "date": "2015-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 2.315724,
+                "date": "2016-04-26T00:00:00+02:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2018-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2019-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2020-04-30T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2021-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2022-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 3.5,
+                "date": "2023-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 4.0,
+                "date": "2024-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 4.0,
+                "date": "2025-05-13T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-13",
+            "earnings_date": [
+                "2026-01-28"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "SIKA.SW": {
+        "symbol": "SIKA.SW",
+        "name": "Sika AG",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Basic Materials",
+        "industry": "Specialty Chemicals",
+        "country": "Switzerland",
+        "current_price": 162.6,
+        "currency": "CHF",
+        "dividend_count": 19,
+        "history": [
+            {
+                "amount": 0.52,
+                "date": "2007-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 0.75,
+                "date": "2008-04-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.75,
+                "date": "2009-04-28T00:00:00+02:00"
+            },
+            {
+                "amount": 0.75,
+                "date": "2010-04-22T00:00:00+02:00"
+            },
+            {
+                "amount": 0.75,
+                "date": "2011-04-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.4,
+                "date": "2012-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.85,
+                "date": "2013-04-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.95,
+                "date": "2014-04-17T00:00:00+02:00"
+            },
+            {
+                "amount": 1.2,
+                "date": "2015-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 1.3,
+                "date": "2016-04-14T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2017-04-13T00:00:00+02:00"
+            },
+            {
+                "amount": 1.85,
+                "date": "2018-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 2.05,
+                "date": "2019-04-11T00:00:00+02:00"
+            },
+            {
+                "amount": 2.3,
+                "date": "2020-04-23T00:00:00+02:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2021-04-22T00:00:00+02:00"
+            },
+            {
+                "amount": 2.9,
+                "date": "2022-04-14T00:00:00+02:00"
+            },
+            {
+                "amount": 3.2,
+                "date": "2023-03-30T00:00:00+02:00"
+            },
+            {
+                "amount": 3.3,
+                "date": "2024-03-28T00:00:00+01:00"
+            },
+            {
+                "amount": 3.6,
+                "date": "2025-03-27T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-27",
+            "earnings_date": [],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 2779000000,
+            "revenue_low": 2708000000,
+            "revenue_average": 2743500000
+        }
+    },
+    "ALC.SW": {
+        "symbol": "ALC.SW",
+        "name": "Alcon",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Healthcare",
+        "industry": "Medical Instruments & Supplies",
+        "country": "Switzerland",
+        "current_price": 63.28,
+        "currency": "CHF",
+        "dividend_count": 5,
+        "history": [
+            {
+                "amount": 0.1,
+                "date": "2021-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2,
+                "date": "2022-05-03T00:00:00+02:00"
+            },
+            {
+                "amount": 0.21,
+                "date": "2023-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 0.24,
+                "date": "2024-05-14T00:00:00+02:00"
+            },
+            {
+                "amount": 0.28,
+                "date": "2025-05-13T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-13",
+            "earnings_date": [
+                "2025-11-11"
+            ],
+            "earnings_high": 0.9,
+            "earnings_low": 0.83,
+            "earnings_average": 0.87,
+            "revenue_high": 2751000000,
+            "revenue_low": 2656000000,
+            "revenue_average": 2710915600
+        }
+    },
+    "GIVN.SW": {
+        "symbol": "GIVN.SW",
+        "name": "Givaudan",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Basic Materials",
+        "industry": "Specialty Chemicals",
+        "country": "Switzerland",
+        "current_price": 3146.0,
+        "currency": "CHF",
+        "dividend_count": 25,
+        "history": [
+            {
+                "amount": 6.5,
+                "date": "2001-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 7.0,
+                "date": "2002-05-02T00:00:00+02:00"
+            },
+            {
+                "amount": 8.1,
+                "date": "2003-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 15.4,
+                "date": "2004-04-21T00:00:00+02:00"
+            },
+            {
+                "amount": 16.3,
+                "date": "2005-05-02T00:00:00+02:00"
+            },
+            {
+                "amount": 17.6,
+                "date": "2006-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 18.8,
+                "date": "2007-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 19.5,
+                "date": "2008-03-31T00:00:00+02:00"
+            },
+            {
+                "amount": 10.0,
+                "date": "2009-04-09T00:00:00+02:00"
+            },
+            {
+                "amount": 20.6,
+                "date": "2010-03-29T00:00:00+02:00"
+            },
+            {
+                "amount": 43.0,
+                "date": "2011-03-28T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2012-03-26T00:00:00+02:00"
+            },
+            {
+                "amount": 36.0,
+                "date": "2013-03-25T00:00:00+01:00"
+            },
+            {
+                "amount": 47.0,
+                "date": "2014-03-24T00:00:00+01:00"
+            },
+            {
+                "amount": 50.0,
+                "date": "2015-03-23T00:00:00+01:00"
+            },
+            {
+                "amount": 54.0,
+                "date": "2016-03-21T00:00:00+01:00"
+            },
+            {
+                "amount": 56.0,
+                "date": "2017-03-27T00:00:00+02:00"
+            },
+            {
+                "amount": 58.0,
+                "date": "2018-03-26T00:00:00+02:00"
+            },
+            {
+                "amount": 60.0,
+                "date": "2019-04-01T00:00:00+02:00"
+            },
+            {
+                "amount": 62.0,
+                "date": "2020-03-27T00:00:00+01:00"
+            },
+            {
+                "amount": 64.0,
+                "date": "2021-03-29T00:00:00+02:00"
+            },
+            {
+                "amount": 66.0,
+                "date": "2022-03-28T00:00:00+02:00"
+            },
+            {
+                "amount": 67.0,
+                "date": "2023-03-27T00:00:00+02:00"
+            },
+            {
+                "amount": 68.0,
+                "date": "2024-03-25T00:00:00+01:00"
+            },
+            {
+                "amount": 70.0,
+                "date": "2025-03-24T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-24",
+            "earnings_date": [],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 1776000000,
+            "revenue_low": 1734000000,
+            "revenue_average": 1755000000
+        }
+    },
+    "HOLN.SW": {
+        "symbol": "HOLN.SW",
+        "name": "Holcim Group",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Basic Materials",
+        "industry": "Building Materials",
+        "country": "Switzerland",
+        "current_price": 77.76,
+        "currency": "CHF",
+        "dividend_count": 23,
+        "history": [
+            {
+                "amount": 4.573873,
+                "date": "2001-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 1.051991,
+                "date": "2004-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 1.143468,
+                "date": "2005-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 1.509378,
+                "date": "2006-05-16T00:00:00+02:00"
+            },
+            {
+                "amount": 1.829549,
+                "date": "2007-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 3.018756,
+                "date": "2008-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 2.058243,
+                "date": "2009-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 1.428571,
+                "date": "2010-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 1.428571,
+                "date": "2011-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 0.952381,
+                "date": "2012-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.095238,
+                "date": "2013-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.238095,
+                "date": "2014-05-02T00:00:00+02:00"
+            },
+            {
+                "amount": 1.238095,
+                "date": "2015-04-15T00:00:00+02:00"
+            },
+            {
+                "amount": 1.5,
+                "date": "2016-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2017-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2018-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2019-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2020-05-15T00:00:00+02:00"
+            },
+            {
+                "amount": 2.0,
+                "date": "2021-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 2.2,
+                "date": "2022-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2023-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 2.8,
+                "date": "2024-05-13T00:00:00+02:00"
+            },
+            {
+                "amount": 3.1,
+                "date": "2025-05-19T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-19",
+            "earnings_date": [],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 4040000000,
+            "revenue_low": 3877000000,
+            "revenue_average": 3958500000
+        }
+    },
+    "SCMN.SW": {
+        "symbol": "SCMN.SW",
+        "name": "Swisscom",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "country": "Switzerland",
+        "current_price": 575.5,
+        "currency": "CHF",
+        "dividend_count": 26,
+        "history": [
+            {
+                "amount": 11.0,
+                "date": "1999-06-04T00:00:00+02:00"
+            },
+            {
+                "amount": 15.0,
+                "date": "2000-06-05T00:00:00+02:00"
+            },
+            {
+                "amount": 11.0,
+                "date": "2001-06-01T00:00:00+02:00"
+            },
+            {
+                "amount": 11.0,
+                "date": "2002-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 12.0,
+                "date": "2003-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 13.0,
+                "date": "2004-04-30T00:00:00+02:00"
+            },
+            {
+                "amount": 14.0,
+                "date": "2005-04-29T00:00:00+02:00"
+            },
+            {
+                "amount": 16.0,
+                "date": "2006-04-28T00:00:00+02:00"
+            },
+            {
+                "amount": 17.0,
+                "date": "2007-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 20.0,
+                "date": "2008-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 19.0,
+                "date": "2009-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 20.0,
+                "date": "2010-04-29T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2012-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2013-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2014-04-09T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2015-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2016-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2017-04-05T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2018-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2019-04-04T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2020-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2021-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2022-04-01T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2023-03-30T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2024-04-02T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2025-03-28T00:00:00+01:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-03-28",
+            "earnings_date": [
+                "2025-11-06"
+            ],
+            "earnings_high": 1.28651,
+            "earnings_low": 1.28651,
+            "earnings_average": 1.28651,
+            "revenue_high": 3948786000,
+            "revenue_low": 3830800000,
+            "revenue_average": 3888098300
+        }
+    },
+    "PGHN.SW": {
+        "symbol": "PGHN.SW",
+        "name": "Partners Group",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Financial Services",
+        "industry": "Asset Management",
+        "country": "Switzerland",
+        "current_price": 982.4,
+        "currency": "CHF",
+        "dividend_count": 19,
+        "history": [
+            {
+                "amount": 2.65,
+                "date": "2007-05-03T00:00:00+02:00"
+            },
+            {
+                "amount": 4.25,
+                "date": "2008-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 4.25,
+                "date": "2009-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 4.5,
+                "date": "2010-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 5.0,
+                "date": "2011-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 5.5,
+                "date": "2012-05-07T00:00:00+02:00"
+            },
+            {
+                "amount": 6.25,
+                "date": "2013-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 7.25,
+                "date": "2014-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 8.5,
+                "date": "2015-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 10.5,
+                "date": "2016-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 15.0,
+                "date": "2017-05-15T00:00:00+02:00"
+            },
+            {
+                "amount": 19.0,
+                "date": "2018-05-14T00:00:00+02:00"
+            },
+            {
+                "amount": 22.0,
+                "date": "2019-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 25.5,
+                "date": "2020-05-15T00:00:00+02:00"
+            },
+            {
+                "amount": 27.5,
+                "date": "2021-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 33.0,
+                "date": "2022-05-30T00:00:00+02:00"
+            },
+            {
+                "amount": 37.0,
+                "date": "2023-05-26T00:00:00+02:00"
+            },
+            {
+                "amount": 39.0,
+                "date": "2024-05-24T00:00:00+02:00"
+            },
+            {
+                "amount": 42.0,
+                "date": "2025-05-23T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-23",
+            "earnings_date": [],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "SREN.SW": {
+        "symbol": "SREN.SW",
+        "name": "Swiss Reinsurance Company Ltd",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Financial Services",
+        "industry": "Insurance - Reinsurance",
+        "country": "Switzerland",
+        "current_price": 132.85,
+        "currency": "CHF",
+        "dividend_count": 31,
+        "history": [
+            {
+                "amount": 15.0,
+                "date": "1995-12-01T00:00:00+01:00"
+            },
+            {
+                "amount": 22.5,
+                "date": "1996-11-27T00:00:00+01:00"
+            },
+            {
+                "amount": 30.0,
+                "date": "1997-07-02T00:00:00+02:00"
+            },
+            {
+                "amount": 44.0,
+                "date": "1998-07-01T00:00:00+02:00"
+            },
+            {
+                "amount": 48.0,
+                "date": "1999-07-01T00:00:00+02:00"
+            },
+            {
+                "amount": 50.0,
+                "date": "2000-07-05T00:00:00+02:00"
+            },
+            {
+                "amount": 50.0,
+                "date": "2001-06-06T00:00:00+02:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2002-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2003-05-15T00:00:00+02:00"
+            },
+            {
+                "amount": 1.1,
+                "date": "2004-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2005-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2006-04-26T00:00:00+02:00"
+            },
+            {
+                "amount": 3.4,
+                "date": "2007-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 4.0,
+                "date": "2008-04-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.1,
+                "date": "2009-03-18T00:00:00+01:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2010-04-09T00:00:00+02:00"
+            },
+            {
+                "amount": 2.75,
+                "date": "2011-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 3.0,
+                "date": "2012-04-17T00:00:00+02:00"
+            },
+            {
+                "amount": 7.5,
+                "date": "2013-04-12T00:00:00+02:00"
+            },
+            {
+                "amount": 8.0,
+                "date": "2014-04-15T00:00:00+02:00"
+            },
+            {
+                "amount": 7.25,
+                "date": "2015-04-23T00:00:00+02:00"
+            },
+            {
+                "amount": 4.6,
+                "date": "2016-04-26T00:00:00+02:00"
+            },
+            {
+                "amount": 4.85,
+                "date": "2017-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 5.0,
+                "date": "2018-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 5.6,
+                "date": "2019-04-23T00:00:00+02:00"
+            },
+            {
+                "amount": 5.9,
+                "date": "2020-04-21T00:00:00+02:00"
+            },
+            {
+                "amount": 5.9,
+                "date": "2021-04-20T00:00:00+02:00"
+            },
+            {
+                "amount": 5.9,
+                "date": "2022-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 5.072,
+                "date": "2023-04-14T00:00:00+02:00"
+            },
+            {
+                "amount": 5.3890004,
+                "date": "2024-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 5.824875,
+                "date": "2025-04-15T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-04-15",
+            "earnings_date": [
+                "2025-11-14"
+            ],
+            "earnings_high": 2.6,
+            "earnings_low": 1.55659,
+            "earnings_average": 2.0783,
+            "revenue_high": 12332880490,
+            "revenue_low": 10622800000,
+            "revenue_average": 11268560160
+        }
+    },
+    "SOON.SW": {
+        "symbol": "SOON.SW",
+        "name": "Sonova",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Healthcare",
+        "industry": "Medical Devices",
+        "country": "Switzerland",
+        "current_price": 207.1,
+        "currency": "CHF",
+        "dividend_count": 20,
+        "history": [
+            {
+                "amount": 0.298013,
+                "date": "2005-07-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.496689,
+                "date": "2006-07-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.745033,
+                "date": "2007-06-15T00:00:00+02:00"
+            },
+            {
+                "amount": 0.993377,
+                "date": "2008-06-16T00:00:00+02:00"
+            },
+            {
+                "amount": 0.993377,
+                "date": "2009-06-15T00:00:00+02:00"
+            },
+            {
+                "amount": 1.192053,
+                "date": "2010-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 1.192053,
+                "date": "2011-06-23T00:00:00+02:00"
+            },
+            {
+                "amount": 2.384105,
+                "date": "2012-06-21T00:00:00+02:00"
+            },
+            {
+                "amount": 1.589403,
+                "date": "2013-06-20T00:00:00+02:00"
+            },
+            {
+                "amount": 1.887417,
+                "date": "2014-06-19T00:00:00+02:00"
+            },
+            {
+                "amount": 2.036423,
+                "date": "2015-06-18T00:00:00+02:00"
+            },
+            {
+                "amount": 2.086092,
+                "date": "2016-06-16T00:00:00+02:00"
+            },
+            {
+                "amount": 2.284767,
+                "date": "2017-06-15T00:00:00+02:00"
+            },
+            {
+                "amount": 2.582781,
+                "date": "2018-06-14T00:00:00+02:00"
+            },
+            {
+                "amount": 2.880794,
+                "date": "2019-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 3.2,
+                "date": "2021-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 4.4,
+                "date": "2022-06-17T00:00:00+02:00"
+            },
+            {
+                "amount": 4.6,
+                "date": "2023-06-14T00:00:00+02:00"
+            },
+            {
+                "amount": 4.3,
+                "date": "2024-06-13T00:00:00+02:00"
+            },
+            {
+                "amount": 4.4,
+                "date": "2025-06-13T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-06-13",
+            "earnings_date": [
+                "2025-11-14"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "GEBN.SW": {
+        "symbol": "GEBN.SW",
+        "name": "Geberit AG",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Industrials",
+        "industry": "Building Products & Equipment",
+        "country": "Switzerland",
+        "current_price": 619.6,
+        "currency": "CHF",
+        "dividend_count": 28,
+        "history": [
+            {
+                "amount": 0.8,
+                "date": "2000-05-23T00:00:00+02:00"
+            },
+            {
+                "amount": 1.0,
+                "date": "2001-05-02T00:00:00+02:00"
+            },
+            {
+                "amount": 0.083736,
+                "date": "2003-01-14T00:00:00+01:00"
+            },
+            {
+                "amount": 0.5,
+                "date": "2003-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 0.083736,
+                "date": "2004-01-13T00:00:00+01:00"
+            },
+            {
+                "amount": 1.7,
+                "date": "2004-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 2.2,
+                "date": "2005-04-29T00:00:00+02:00"
+            },
+            {
+                "amount": 0.1079264,
+                "date": "2005-06-07T00:00:00+02:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2006-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 4.0,
+                "date": "2007-05-02T00:00:00+02:00"
+            },
+            {
+                "amount": 5.2,
+                "date": "2008-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 5.4,
+                "date": "2009-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 6.05,
+                "date": "2010-05-04T00:00:00+02:00"
+            },
+            {
+                "amount": 6.0,
+                "date": "2011-04-21T00:00:00+02:00"
+            },
+            {
+                "amount": 6.3,
+                "date": "2012-04-10T00:00:00+02:00"
+            },
+            {
+                "amount": 6.6,
+                "date": "2013-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 7.5,
+                "date": "2014-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 8.3,
+                "date": "2015-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 8.4,
+                "date": "2016-04-08T00:00:00+02:00"
+            },
+            {
+                "amount": 10.0,
+                "date": "2017-04-07T00:00:00+02:00"
+            },
+            {
+                "amount": 10.4,
+                "date": "2018-04-06T00:00:00+02:00"
+            },
+            {
+                "amount": 10.8,
+                "date": "2019-04-05T00:00:00+02:00"
+            },
+            {
+                "amount": 11.3,
+                "date": "2020-04-03T00:00:00+02:00"
+            },
+            {
+                "amount": 11.4,
+                "date": "2021-04-16T00:00:00+02:00"
+            },
+            {
+                "amount": 12.5,
+                "date": "2022-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 12.6,
+                "date": "2023-04-21T00:00:00+02:00"
+            },
+            {
+                "amount": 12.7,
+                "date": "2024-04-19T00:00:00+02:00"
+            },
+            {
+                "amount": 12.8,
+                "date": "2025-04-22T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-04-22",
+            "earnings_date": [
+                "2025-11-04"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": 740000000,
+            "revenue_low": 697000000,
+            "revenue_average": 717533000
+        }
+    },
+    "SLHN.SW": {
+        "symbol": "SLHN.SW",
+        "name": "Swiss Life",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Financial Services",
+        "industry": "Insurance - Diversified",
+        "country": "Switzerland",
+        "current_price": 916.8,
+        "currency": "CHF",
+        "dividend_count": 14,
+        "history": [
+            {
+                "amount": 4.5,
+                "date": "2012-04-24T00:00:00+02:00"
+            },
+            {
+                "amount": 4.5,
+                "date": "2013-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 5.5,
+                "date": "2014-04-25T00:00:00+02:00"
+            },
+            {
+                "amount": 6.5,
+                "date": "2015-04-29T00:00:00+02:00"
+            },
+            {
+                "amount": 8.5,
+                "date": "2016-04-28T00:00:00+02:00"
+            },
+            {
+                "amount": 11.0,
+                "date": "2017-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 13.5,
+                "date": "2018-04-26T00:00:00+02:00"
+            },
+            {
+                "amount": 16.5,
+                "date": "2019-05-03T00:00:00+02:00"
+            },
+            {
+                "amount": 15.0,
+                "date": "2020-04-30T00:00:00+02:00"
+            },
+            {
+                "amount": 21.0,
+                "date": "2021-04-27T00:00:00+02:00"
+            },
+            {
+                "amount": 25.0,
+                "date": "2022-04-26T00:00:00+02:00"
+            },
+            {
+                "amount": 30.0,
+                "date": "2023-05-03T00:00:00+02:00"
+            },
+            {
+                "amount": 33.0,
+                "date": "2024-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 35.0,
+                "date": "2025-05-16T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-16",
+            "earnings_date": [
+                "2025-11-12"
+            ],
+            "earnings_high": null,
+            "earnings_low": null,
+            "earnings_average": null,
+            "revenue_high": null,
+            "revenue_low": null,
+            "revenue_average": null
+        }
+    },
+    "LOGN.SW": {
+        "symbol": "LOGN.SW",
+        "name": "Logitech",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "country": "Switzerland",
+        "current_price": 81.54,
+        "currency": "CHF",
+        "dividend_count": 15,
+        "history": [
+            {
+                "amount": 0.3,
+                "date": "1996-07-02T00:00:00+02:00"
+            },
+            {
+                "amount": 1.6,
+                "date": "2012-09-13T00:00:00+02:00"
+            },
+            {
+                "amount": 0.21,
+                "date": "2013-09-12T00:00:00+02:00"
+            },
+            {
+                "amount": 0.2625,
+                "date": "2014-12-23T00:00:00+01:00"
+            },
+            {
+                "amount": 0.5119,
+                "date": "2015-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.5557,
+                "date": "2016-09-23T00:00:00+02:00"
+            },
+            {
+                "amount": 0.609,
+                "date": "2017-09-25T00:00:00+02:00"
+            },
+            {
+                "amount": 0.667796,
+                "date": "2018-09-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.729993,
+                "date": "2019-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7941,
+                "date": "2020-09-18T00:00:00+02:00"
+            },
+            {
+                "amount": 0.874567,
+                "date": "2021-09-20T00:00:00+02:00"
+            },
+            {
+                "amount": 0.9621,
+                "date": "2022-09-26T00:00:00+02:00"
+            },
+            {
+                "amount": 1.06,
+                "date": "2023-09-25T00:00:00+02:00"
+            },
+            {
+                "amount": 1.16,
+                "date": "2024-09-23T00:00:00+02:00"
+            },
+            {
+                "amount": 1.26,
+                "date": "2025-09-22T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-09-22",
+            "earnings_date": [
+                "2026-01-27"
+            ],
+            "earnings_high": 1.94446,
+            "earnings_low": 1.94446,
+            "earnings_average": 1.94446,
+            "revenue_high": 1417637550,
+            "revenue_low": 1385000000,
+            "revenue_average": 1401733870
+        }
+    },
+    "KNIN.SW": {
+        "symbol": "KNIN.SW",
+        "name": "Kuehne + Nagel",
+        "indices": [
+            "Switzerland 20"
+        ],
+        "sector": "Industrials",
+        "industry": "Integrated Freight & Logistics",
+        "country": "Switzerland",
+        "current_price": 171.25,
+        "currency": "CHF",
+        "dividend_count": 25,
+        "history": [
+            {
+                "amount": 0.58,
+                "date": "2002-05-21T00:00:00+02:00"
+            },
+            {
+                "amount": 0.6,
+                "date": "2003-05-19T00:00:00+02:00"
+            },
+            {
+                "amount": 0.7,
+                "date": "2004-05-17T00:00:00+02:00"
+            },
+            {
+                "amount": 0.9,
+                "date": "2005-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 5.5,
+                "date": "2006-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 1.5,
+                "date": "2007-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 1.9,
+                "date": "2008-05-05T00:00:00+02:00"
+            },
+            {
+                "amount": 2.5,
+                "date": "2008-12-12T00:00:00+01:00"
+            },
+            {
+                "amount": 2.3,
+                "date": "2009-05-18T00:00:00+02:00"
+            },
+            {
+                "amount": 2.3,
+                "date": "2010-05-20T00:00:00+02:00"
+            },
+            {
+                "amount": 4.25,
+                "date": "2011-05-12T00:00:00+02:00"
+            },
+            {
+                "amount": 3.85,
+                "date": "2012-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 3.5,
+                "date": "2013-05-14T00:00:00+02:00"
+            },
+            {
+                "amount": 5.85,
+                "date": "2014-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 7.0,
+                "date": "2015-05-08T00:00:00+02:00"
+            },
+            {
+                "amount": 5.0,
+                "date": "2016-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 5.5,
+                "date": "2017-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 5.75,
+                "date": "2018-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 6.0,
+                "date": "2019-05-09T00:00:00+02:00"
+            },
+            {
+                "amount": 4.0,
+                "date": "2020-09-04T00:00:00+02:00"
+            },
+            {
+                "amount": 4.5,
+                "date": "2021-05-06T00:00:00+02:00"
+            },
+            {
+                "amount": 10.0,
+                "date": "2022-05-05T00:00:00+02:00"
+            },
+            {
+                "amount": 14.0,
+                "date": "2023-05-11T00:00:00+02:00"
+            },
+            {
+                "amount": 10.0,
+                "date": "2024-05-10T00:00:00+02:00"
+            },
+            {
+                "amount": 8.25,
+                "date": "2025-05-09T00:00:00+02:00"
+            }
+        ],
+        "expected_ex_dividend_dates": {
+            "exdividend_date": "2025-05-09",
+            "earnings_date": [
+                "2025-10-23"
+            ],
+            "earnings_high": 1.67748,
+            "earnings_low": 1.60818,
+            "earnings_average": 1.64392,
+            "revenue_high": 6213383000,
+            "revenue_low": 6204651260,
+            "revenue_average": 6209017130
+        }
+    }
+}

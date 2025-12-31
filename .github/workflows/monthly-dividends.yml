@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       index:
-        description: 'Optional specific index to process (DE_DAX, DE_TECDAX, US_DOW, US_NASDAQ, EU_50)'
+        description: 'Optional specific index to process (use index values from pytickersymbols, e.g., DAX, SDAX, EURO STOXX 50, NASDAQ 100)'
         required: false
         default: ''
 
@@ -34,7 +34,7 @@ jobs:
       - name: Run monthly build (single index)
         run: |
           set -euo pipefail
-          python dividends.py --index "${{ inputs.index }}"
+          python dividends.py --index "${{ inputs.index }}" --overwrite
 
       - name: Upload dividends artifacts
         if: always()
@@ -52,7 +52,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        index: [DE_DAX, DE_TECDAX, US_DOW, US_NASDAQ, EU_50]
+        index: [SDAX, FTSE 100, OMX Helsinki 25, EURO STOXX 50, S&P 100, IBEX 35, DOW JONES, DAX, CAC Mid 60, TecDAX, NASDAQ 100, Switzerland 20, CAC_40, S&P 500, S&P 600, OMX Stockholm 30, BEL 20, MDAX, AEX]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -71,7 +71,7 @@ jobs:
       - name: Run monthly build (matrix)
         run: |
           set -euo pipefail
-          python dividends.py --index "${{ matrix.index }}"
+          python dividends.py --index "${{ matrix.index }}" --overwrite
 
       - name: Upload dividends artifacts
         if: always()

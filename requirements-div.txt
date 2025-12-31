@@ -1,4 +1,4 @@
 click==8.1.8
 requests==2.32.3
-pytickersymbols==1.15.0
-yfinance==0.2.66
+pytickersymbols==1.16.0
+yfinance==1.0.0
